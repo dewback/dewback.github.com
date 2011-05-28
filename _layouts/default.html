@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link href="/css/default.css?9" rel="stylesheet" type="text/css">
+    <link href="/css/highlight.css?9" rel="stylesheet" type="text/css">
+    <link href="http://feeds2.feedburner.com/dewback/feed" rel="alternate" title="Fabián Arias" type="application/atom+xml">
+    <link href='/images/favicon.ico' rel='shortcut icon' type='image/ico'>
+  </head>
+  <body>
+    <h1><a href="{{ base.url }}/">fabianarias<span>.</span>com</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ base.url }}/">Principal</a></li>
+        <li><a href="{{ base.url }}/acerca/">Acerca</a></li>
+      </ul>
+    </nav>
+    {{ content }}
+  </body>
+</html>
