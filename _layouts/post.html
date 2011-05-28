@@ -7,14 +7,14 @@ layout: default
   <h2>{{ page.title }}</h2>
   {{ content }}
 </article>
-<p>If you've read this far, you should <a href="http://twitter.com/tatejohnson">follow me</a> on Twitter.</p>
+<p>Si leíste hasta acá, te sugiero <a href="http://twitter.com/dewback">seguirme</a> en Twitter.</p>
 <hr>
 <div id="paginator">
   {% if page.previous %}
-    <a id="left" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Older</a>
+    <a id="left" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previas</a>
   {% endif %}
   {% if page.next %}
-    <a id="right" href="{{ page.next.url }}" title="{{ page.next.title }}">Newer &rarr;</a>
+    <a id="right" href="{{ page.next.url }}" title="{{ page.next.title }}">Siguientes &rarr;</a>
   {% endif %}
 </div>
 {% include footer.html %}
