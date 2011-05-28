@@ -1,5 +1,6 @@
 # Adopted from Scott Kyle's Rakefile
 # http://github.com/appden/appden.github.com/blob/master/Rakefile
+# Based in code from Tate Johnson https://github.com/tatey/tatey.com
 
 task :default => :server
  
