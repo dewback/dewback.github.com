@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link href="{{ base.url }}/css/default.css?9" rel="stylesheet" type="text/css">
+    <link href="{{ base.url }}/css/highlight.css?9" rel="stylesheet" type="text/css">
+    <link href="{{ base.url }}/atom.xml" rel="alternate" title="Fabián Arias" type="application/atom+xml">
+    <link href='{{ base.url }}/images/favicon.ico' rel='shortcut icon' type='image/ico'>
+  </head>
+  <body>
+    <h1><a href="{{ base.url }}/">fabianarias<span>.</span>com</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ base.url }}/">Principal</a></li>
+        <li><a href="{{ base.url }}/acerca/">Acerca</a></li>
+      </ul>
+    </nav>
+    {{ content }}
+  </body>
+</html>
