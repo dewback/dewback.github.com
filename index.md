@@ -20,7 +20,7 @@ Tweets recientes
 ----------------
 <div id="twitter_div">
 <ul id="twitter_update_list"></ul>
-<a id="twitter-link" style="display:block;text-align:right;" href="http://twitter.com/dewback">Sígueme en Twitter</a>
+<a id="twitter-link" style="display:block;text-align:right;" href="http://twitter.com/dewback">S&iacute;gueme en Twitter</a>
 </div>
 <script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
 <script src="http://api.twitter.com/1/statuses/user_timeline.json?user_id=4680581&amp;count=4&amp;callback=twitterCallback2" type="text/javascript"></script>
@@ -32,7 +32,7 @@ Tweets recientes
   <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
   {{ site.posts.first.content }}
 </article>
-<hr>
+<hr />
 <h2>Archivo</h2>
 <ol id="archive">
   {% for post in site.posts offset:1 %}
