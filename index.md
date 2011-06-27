@@ -3,9 +3,6 @@ layout: default
 title: Home
 ---
 
-<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
-<script src="http://api.twitter.com/1/statuses/user_timeline.json?user_id=4680581&amp;count=4&amp;callback=twitterCallback2" type="text/javascript"></script>
-
 Referencias
 -----------
 
@@ -43,4 +40,6 @@ Tweets recientes
     </li>
   {% endfor %}
 </ol>
+<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
+<script src="http://api.twitter.com/1/statuses/user_timeline.json?user_id=4680581&amp;count=4&amp;callback=twitterCallback2" type="text/javascript"></script>
 {% include footer.html %}
